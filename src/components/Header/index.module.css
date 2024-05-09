@@ -1,0 +1,80 @@
+.containerLight {
+  background-color: rgb(255, 255, 255);
+  color: #92929d;
+}
+
+.containerDark {
+  background-color: #121212;
+  color: #92929d;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.li {
+  display: flex;
+  gap: 10px;
+  transition: all 0.5s;
+  align-items: center;
+  font-size: 18px;
+}
+.li:hover {
+  color: rgb(0, 68, 255);
+}
+
+.header {
+  display: flex;
+  max-width: 1440px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 20px;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.ul {
+  display: flex;
+  gap: 40px;
+}
+.selectt {
+  font-size: 20px;
+  /* color: black; */
+}
+.selectt select {
+  background: transparent;
+}
+
+.selectt img {
+  margin-top: -1px;
+  margin-left: -40px;
+  position: absolute;
+}
+.selekt {
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+}
+.select1 {
+  margin-right: 10px;
+  background-color: transparent;
+  justify-content: end;
+  font-size: 20px;
+}
+.login {
+  background-color: black;
+  max-width: 1800px;
+}
+.select2 {
+  background-color: transparent;
+  justify-content: end;
+  font-size: 20px;
+  margin-right: 20px;
+}
+/*  */
